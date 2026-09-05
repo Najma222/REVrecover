@@ -1,0 +1,7 @@
+# Warm, human theme for the Checkout Drop-off Recovery Agent.
+# Only theme colors — no logic, no behavior changes.
+[theme]
+primaryColor = "#2E7D6F"
+backgroundColor = "#FBF9F4"
+secondaryBackgroundColor = "#F3EDE2"
+textColor = "#22333B"
