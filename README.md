@@ -83,10 +83,17 @@ python3 recovery_engine.py  # runs recovery batch, writes
 ## 3. Deploy the dashboard (free, ~10 minutes)
 
 **Streamlit Community Cloud** (easiest):
-1. Push this folder to a public (or private, with your account) GitHub repo.
-2. Go to https://share.streamlit.io → "New app" → point it at the repo,
-   branch, and `app.py`.
+1. Push this folder to GitHub as the public repo **`REVrecover`**:
+   ```bash
+   git init -b main
+   git remote add origin https://github.com/<YOUR-USERNAME>/REVrecover.git
+   git push -u origin main
+   ```
+   (Private repos also work, provided you connect the account.)
+2. Go to https://share.streamlit.io → "New app" → select the `REVrecover`
+   repo → branch `main` → main file path `app.py`.
 3. It installs `requirements.txt` automatically and gives you a public URL.
+   The app fetches the real UCI dataset at runtime (the cloud has internet).
 
 **Render / Railway** (if you want a custom domain or more control):
 1. Push to GitHub.
