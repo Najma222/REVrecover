@@ -118,7 +118,7 @@ moves with different business assumptions — this is deliberately exposed,
 not hidden, because the "recoverable share" number is an honest assumption
 (see PRD §6), not a measured fact.
 
-## 5. Known limitations (say these out loud when presenting)
+## 5. Known limitations
 
 - Cart values and the customer-response-to-recovery-message model are
   documented synthetic assumptions layered on top of a real behavioural
